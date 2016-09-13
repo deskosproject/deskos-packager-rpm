@@ -1,0 +1,3 @@
+= DeskOS: deskos-packager RPM
+
+This is the _deskos-packager_ RPM package for the *DeskOS* operating system.
