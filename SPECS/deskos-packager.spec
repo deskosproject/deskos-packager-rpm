@@ -1,5 +1,5 @@
 Name:           deskos-packager
-Version:        0.1.0
+Version:        0.1.1
 Release:        1%{?dist}
 Summary:        Tools and files necessary for building DeskOS packages
 Group:          Applications/Productivity
@@ -48,5 +48,8 @@ ln -sf %{_bindir}/koji %{buildroot}%{_bindir}/dbs
 %{_bindir}/dbs
 
 %changelog
+* Mon Sep 19 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.1.1-1
+- Changed serverca and url
+
 * Mon Sep 12 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.1.0-1
 - Initial release
